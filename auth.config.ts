@@ -8,6 +8,8 @@ import { SignInValidation } from "@/lib/validations/auth"
 import { fetchUserByEmail, fetchUserById, signInWithOauth } from "@/lib/api-handler/user"
 import { fetchConfirmationByUserId, deleteConfirmationById } from "@/lib/api-handler/twofac"
 
+console.log("Googlr client id : ", process.env.GOOGLE_CLIENT_ID);
+console.log("Googlr client secret : ", process.env.GOOGLE_CLIENT_SECRET);
 export default {
   session: { strategy: "jwt" },
   secret: process.env.AUTH_SECRET,
