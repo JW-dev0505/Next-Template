@@ -30,7 +30,6 @@ export const footerLinks = [
       { title: "About Us", url: "/" },
       { title: "Careers", url: "/" },
       { title: "Blog", url: "/" },
-      { title: "Affiliate Program", url: "/" }
     ],
   },
   {
